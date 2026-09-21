@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 210" fill="none" role="img" aria-label="Cerdito Muerto dead pig mark">
+  <g stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ears -->
+    <path d="M44 62c-6-14-9-28-6-38 1-4 5-5 8-2 8 8 15 16 20 25"/>
+    <path d="M156 62c6-14 9-28 6-38-1-4-5-5-8-2-8 8-15 16-20 25"/>
+    <!-- head -->
+    <path d="M100 26c-31 0-57 13-66 36-6 15-7 34-3 50 5 21 19 37 38 44 10 4 21 6 31 6s21-2 31-6c19-7 33-23 38-44 4-16 3-35-3-50-9-23-35-36-66-36z"/>
+    <!-- X eye left -->
+    <path d="M56 86l20 20M76 86l-20 20"/>
+    <!-- X eye right -->
+    <path d="M124 86l20 20M144 86l-20 20"/>
+    <!-- snout -->
+    <ellipse cx="100" cy="133" rx="30" ry="22"/>
+    <path d="M89 128v10M111 128v10"/>
+    <!-- tongue -->
+    <path d="M100 155c0 12-4 21-11 26-5 4-12 3-14-3-2-5 1-10 6-12 6-3 10-6 12-11"/>
+    <!-- cheek stitches -->
+    <path d="M36 112l-11 4M164 112l11 4"/>
+  </g>
+</svg>

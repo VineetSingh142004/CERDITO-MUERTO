@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" role="img" aria-label="Cerdito Muerto cartoon chef mascot holding a food tray">
+  <defs>
+    <linearGradient id="skin" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#FFDE6E"/><stop offset="1" stop-color="#EDAF25"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#FDFAF2"/><stop offset="1" stop-color="#DBD1BA"/>
+    </linearGradient>
+    <linearGradient id="tray" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6D67C"/><stop offset="1" stop-color="#C2831C"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#2A1E10" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ================= LEGS + SHOES ================= -->
+    <rect x="152" y="418" width="52" height="144" rx="8" fill="#3C382F"/>
+    <rect x="216" y="418" width="52" height="144" rx="8" fill="#3C382F"/>
+    <path d="M204 550h-52c-18 0-31 11-31 24 0 8 7 14 17 14h66c6 0 10-4 10-10v-20c0-5-4-8-10-8z" fill="#24211C"/>
+    <path d="M216 550h52c18 0 31 11 31 24 0 8-7 14-17 14h-66c-6 0-10-4-10-10v-20c0-5 4-8 10-8z" fill="#24211C"/>
+
+    <path d="M178 430v120M242 430v120" fill="none" stroke-width="3.4" opacity=".35"/>
+
+    <!-- ================= TORSO : chef jacket ================= -->
+    <path d="M210 244c-40 0-70 16-74 40l-14 146c-1 9 6 16 15 16h146c9 0 16-7 15-16l-14-146c-4-24-34-40-74-40z" fill="url(#cloth)"/>
+    <!-- lapels -->
+    <path d="M210 252l-24 20 12 16M210 252l24 20-12 16" fill="none" stroke-width="5"/>
+    <!-- button placket, kept visible beside the apron -->
+    <path d="M142 310l-6 124" fill="none" stroke-width="4.5" opacity=".45"/>
+    <path d="M278 310l6 124" fill="none" stroke-width="4.5" opacity=".45"/>
+    <g fill="#17110A" stroke="none">
+      <circle cx="140" cy="334" r="6"/><circle cx="138" cy="378" r="6"/><circle cx="137" cy="420" r="6"/>
+    </g>
+    <!-- neckerchief -->
+    <path d="M180 262c8 11 18 16 30 16s22-5 30-16l-7-12h-46z" fill="#E8A93C"/>
+    <path d="M202 278l8 18 8-18z" fill="#CE9220"/>
+
+    <!-- ================= APRON ================= -->
+    <path d="M172 312h76c7 0 13 6 13 13l5 104c0 7-6 13-13 13H159c-7 0-13-6-13-13l5-104c0-7 6-13 13-13z" fill="#1C4436"/>
+    <!-- bib straps -->
+    <path d="M178 312c-9-8-15-18-17-30M242 312c9-8 15-18 17-30" fill="none" stroke="#E8A93C" stroke-width="5.5"/>
+    <!-- waist ties -->
+    <path d="M152 376c-13 3-22 8-27 15M268 376c13 3 22 8 27 15" fill="none" stroke="#E8A93C" stroke-width="5.5"/>
+    <!-- apron pig mark -->
+    <g stroke="#E8A93C" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M192 372c-3-7-5-14-3-19 1-2 3-2 4-1 4 4 8 8 10 13"/>
+      <path d="M228 372c3-7 5-14 3-19-1-2-3-2-4-1-4 4-8 8-10 13"/>
+      <path d="M210 356c-16 0-29 7-33 18-3 8-4 17-2 25 3 11 10 19 20 22 5 2 10 3 15 3s10-1 15-3c10-3 17-11 20-22 2-8 1-17-2-25-4-11-17-18-33-18z"/>
+      <path d="M196 386l9 9M205 386l-9 9M215 386l9 9M224 386l-9 9"/>
+      <ellipse cx="210" cy="412" rx="13" ry="9"/>
+    </g>
+
+    <!-- ================= RIGHT ARM (hangs at the side) ================= -->
+    <path d="M278 288c17 28 22 60 17 92" fill="none" stroke-width="34"/>
+    <path d="M278 288c17 28 22 60 17 92" fill="none" stroke-width="24" stroke="url(#cloth)"/>
+    <path d="M295 382l-2 14" fill="none" stroke-width="31"/>
+    <path d="M295 382l-2 14" fill="none" stroke-width="20" stroke="#E8A93C"/>
+    <circle cx="292" cy="422" r="21" fill="url(#skin)"/>
+
+    <!-- ================= LEFT ARM (raised, carrying the tray) ================= -->
+    <path d="M150 296C120 288 100 272 94 246" fill="none" stroke-width="34"/>
+    <path d="M150 296C120 288 100 272 94 246" fill="none" stroke-width="24" stroke="url(#cloth)"/>
+    <path d="M96 258l-4-14" fill="none" stroke-width="31"/>
+    <path d="M96 258l-4-14" fill="none" stroke-width="20" stroke="#E8A93C"/>
+    <circle cx="90" cy="230" r="21" fill="url(#skin)"/>
+
+    <!-- ================= TRAY ================= -->
+    <ellipse cx="90" cy="204" rx="74" ry="20" fill="url(#tray)"/>
+    <ellipse cx="90" cy="200" rx="60" ry="13" fill="none" stroke-width="3.4" opacity=".45"/>
+    <!-- taco -->
+    <path d="M40 192c0-16 12-29 27-29s27 13 27 29z" fill="#F4CE72"/>
+    <path d="M46 185c6-7 13-11 21-11s15 4 21 11" fill="none" stroke-width="4" stroke="#4E8A46"/>
+    <path d="M49 177c5-5 11-8 18-8s13 3 18 8" fill="none" stroke-width="4" stroke="#B3452A"/>
+    <!-- coupe -->
+    <path d="M112 192l-13-21h34l-13 21z" fill="#EFE3C4"/>
+    <path d="M99 171h34" fill="none" stroke-width="4"/>
+    <path d="M116 192v8M106 200h20" fill="none" stroke-width="4"/>
+    <!-- candle -->
+    <rect x="138" y="174" width="18" height="19" rx="4" fill="#EFE3C4"/>
+    <path d="M147 174c6-7 6-13 0-19-6 6-6 12 0 19z" fill="#E8A93C" stroke-width="3.4"/>
+
+    <!-- ================= HEAD ================= -->
+    <ellipse cx="210" cy="176" rx="76" ry="70" fill="url(#skin)"/>
+    <circle cx="136" cy="184" r="15" fill="url(#skin)"/>
+    <circle cx="284" cy="184" r="15" fill="url(#skin)"/>
+    <!-- eyes -->
+    <ellipse cx="190" cy="156" rx="25" ry="28" fill="#FFFDF7"/>
+    <ellipse cx="236" cy="156" rx="25" ry="28" fill="#FFFDF7"/>
+    <circle cx="182" cy="162" r="9.5" fill="#17110A" stroke="none"/>
+    <circle cx="228" cy="162" r="9.5" fill="#17110A" stroke="none"/>
+    <circle cx="186" cy="157" r="3" fill="#fff" stroke="none"/>
+    <circle cx="232" cy="157" r="3" fill="#fff" stroke="none"/>
+    <!-- brows -->
+    <path d="M166 120c10-8 23-8 32-1M222 119c9-7 22-7 32 1" fill="none" stroke-width="6.5"/>
+    <!-- nose -->
+    <ellipse cx="213" cy="188" rx="15" ry="12" fill="#E4A318"/>
+    <!-- mustache -->
+    <path d="M213 204c-11-11-28-14-38-6-8 6-6 16 4 19 13 4 28-2 34-13z" fill="#17110A" stroke="none"/>
+    <path d="M213 204c11-11 28-14 38-6 8 6 6 16-4 19-13 4-28-2-34-13z" fill="#17110A" stroke="none"/>
+    <!-- smile -->
+    <path d="M186 218c7 15 18 22 27 22s20-7 27-22z" fill="#8E2F27"/>
+    <path d="M188 218h50" fill="none" stroke-width="5" stroke="#FFFDF7"/>
+
+    <!-- ================= TOQUE ================= -->
+    <path d="M156 118c-18-8-28-27-23-46 5-18 23-28 40-23 6-20 27-31 46-25 13 4 22 14 25 27 18-6 37 5 41 24 4 19-6 35-23 43z" fill="url(#cloth)"/>
+    <path d="M156 114h108c7 0 12 5 12 12v14c0 7-5 12-12 12H156c-7 0-12-5-12-12v-14c0-7 5-12 12-12z" fill="url(#cloth)"/>
+    <path d="M184 56c-5 17-5 37 0 58M236 56c5 17 5 37 0 58" fill="none" stroke-width="4" opacity=".4"/>
+  </g>
+</svg>
