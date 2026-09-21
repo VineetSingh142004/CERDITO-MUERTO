@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 780" role="img"
+     aria-label="Cerdito Muerto mascot: a cartoon pig in a chef hat and apron carrying a tray of tacos">
+  <defs>
+    <linearGradient id="pgSkin" x1=".25" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#F7C3AB"/><stop offset=".55" stop-color="#ECA289"/><stop offset="1" stop-color="#D17A60"/>
+    </linearGradient>
+    <linearGradient id="pgSkin2" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#E7A289"/><stop offset="1" stop-color="#C26C53"/>
+    </linearGradient>
+    <linearGradient id="pgHat" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#DCD1BA"/>
+    </linearGradient>
+    <linearGradient id="pgApron" x1=".2" y1="0" x2=".85" y2="1">
+      <stop offset="0" stop-color="#2A6851"/><stop offset="1" stop-color="#123427"/>
+    </linearGradient>
+    <linearGradient id="pgTray" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F9DD92"/><stop offset="1" stop-color="#BB7D18"/>
+    </linearGradient>
+    <radialGradient id="pgBlush" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#E2705C" stop-opacity=".5"/><stop offset="1" stop-color="#E2705C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g stroke="#31200F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ===== curly tail ===== -->
+    <path d="M404 520c28 0 46-12 48-29 1-14-11-25-23-21-13 4-15 20-3 27 15 9 33 1 41-14"
+          fill="none" stroke-width="12"/>
+
+    <!-- ===== right arm, hanging ===== -->
+    <path d="M372 470c28 20 44 52 44 88" fill="none" stroke-width="52"/>
+    <path d="M372 470c28 20 44 52 44 88" fill="none" stroke-width="38" stroke="url(#pgSkin2)"/>
+    <path d="M416 562c0 12-1 21-4 29" fill="none" stroke-width="48"/>
+    <path d="M416 562c0 12-1 21-4 29" fill="none" stroke-width="34" stroke="#472F1C"/>
+
+    <!-- ===== legs + trotters ===== -->
+    <path d="M222 574h50v84c0 15-11 26-25 26s-25-11-25-26z" fill="url(#pgSkin2)"/>
+    <path d="M288 574h50v84c0 15-11 26-25 26s-25-11-25-26z" fill="url(#pgSkin2)"/>
+    <path d="M216 654h62c8 0 14 6 14 14v8c0 9-7 16-16 16h-58c-9 0-16-7-16-16v-8c0-8 6-14 14-14z" fill="#472F1C"/>
+    <path d="M282 654h62c8 0 14 6 14 14v8c0 9-7 16-16 16h-58c-9 0-16-7-16-16v-8c0-8 6-14 14-14z" fill="#472F1C"/>
+    <path d="M247 670v20M313 670v20" fill="none" stroke-width="7" stroke="#20150B"/>
+
+    <!-- ===== body ===== -->
+    <path d="M280 344c-70 0-122 28-140 74-13 34-15 76-8 110 8 41 34 66 70 73 25 5 52 7 78 7s53-2 78-7c36-7 62-32 70-73 7-34 5-76-8-110-18-46-70-74-140-74z"
+          fill="url(#pgSkin)"/>
+    <!-- belly highlight -->
+    <ellipse cx="280" cy="470" rx="96" ry="88" fill="#FFF" opacity=".10" stroke="none"/>
+
+    <!-- ===== apron ===== -->
+    <path d="M228 412h104c10 0 18 8 18 18v46c34 4 55 19 57 39l6 78c1 14-10 26-24 26H171c-14 0-25-12-24-26l6-78c2-20 23-35 57-39v-46c0-10 8-18 18-18z"
+          fill="url(#pgApron)"/>
+    <path d="M236 412c-14-11-23-27-25-45M324 412c14-11 23-27 25-45" fill="none" stroke="#E8A93C" stroke-width="10"/>
+    <path d="M160 500c-18 5-30 13-37 23M400 500c18 5 30 13 37 23" fill="none" stroke="#E8A93C" stroke-width="10"/>
+    <!-- pocket -->
+    <path d="M242 524h76c8 0 14 6 14 14v36c0 8-6 14-14 14h-76c-8 0-14-6-14-14v-36c0-8 6-14 14-14z"
+          fill="none" stroke="#E8A93C" stroke-width="7"/>
+    <path d="M264 524v-12M296 524v-12" fill="none" stroke="#E8A93C" stroke-width="7"/>
+
+    <!-- ===== left arm, raised out to the side, clear of the head ===== -->
+    <path d="M196 456C158 452 118 430 92 396" fill="none" stroke-width="52"/>
+    <path d="M196 456C158 452 118 430 92 396" fill="none" stroke-width="38" stroke="url(#pgSkin)"/>
+    <path d="M100 404c-6-6-11-12-15-18" fill="none" stroke-width="48"/>
+    <path d="M100 404c-6-6-11-12-15-18" fill="none" stroke-width="34" stroke="#FFFDF7"/>
+    <!-- trotter under the tray -->
+    <path d="M80 348c-19 0-33 13-33 29 0 15 14 26 33 26s33-11 33-26c0-16-14-29-33-29z" fill="url(#pgSkin2)"/>
+
+    <!-- ===== tray + food, held clear to the left ===== -->
+    <ellipse cx="80" cy="340" rx="80" ry="22" fill="url(#pgTray)"/>
+    <ellipse cx="80" cy="334" rx="64" ry="14" fill="none" stroke-width="5" opacity=".42"/>
+    <path d="M24 326c0-19 14-34 31-34s31 15 31 34z" fill="#F3C765"/>
+    <path d="M31 317c6-8 15-12 24-12s18 4 24 12" fill="none" stroke-width="6" stroke="#4E8A46"/>
+    <path d="M35 307c6-6 13-9 20-9s14 3 20 9" fill="none" stroke-width="6" stroke="#B3452A"/>
+    <path d="M84 328c0-16 12-29 26-29s26 13 26 29z" fill="#E9B854"/>
+    <path d="M91 320c5-7 12-10 19-10s14 3 19 10" fill="none" stroke-width="5.5" stroke="#4E8A46"/>
+    <path d="M46 276c8-9 8-18 0-27M80 268c8-9 8-18 0-27M114 278c8-9 8-18 0-27"
+          fill="none" stroke-width="7" stroke="#E8A93C" opacity=".7"/>
+
+    <!-- ===== head ===== -->
+    <path d="M280 108c-62 0-110 26-129 70-13 28-15 61-7 90 9 38 35 67 73 82 20 8 42 11 63 11s43-3 63-11c38-15 64-44 73-82 8-29 6-62-7-90-19-44-67-70-129-70z"
+          fill="url(#pgSkin)"/>
+
+    <!-- floppy ears -->
+    <path d="M178 166c-27-22-46-49-50-71-2-12 7-19 17-14 28 13 52 31 72 54z" fill="url(#pgSkin2)"/>
+    <path d="M382 166c27-22 46-49 50-71 2-12-7-19-17-14-28 13-52 31-72 54z" fill="url(#pgSkin2)"/>
+    <path d="M189 150c-14-14-24-28-27-40 15 8 28 18 39 30z" fill="#B7624B" stroke="none"/>
+    <path d="M371 150c14-14 24-28 27-40-15 8-28 18-39 30z" fill="#B7624B" stroke="none"/>
+
+    <ellipse cx="180" cy="252" rx="34" ry="24" fill="url(#pgBlush)" stroke="none"/>
+    <ellipse cx="380" cy="252" rx="34" ry="24" fill="url(#pgBlush)" stroke="none"/>
+
+    <!-- dead-pig X eyes -->
+    <g stroke-width="17">
+      <path d="M208 196l38 38M246 196l-38 38"/>
+      <path d="M314 196l38 38M352 196l-38 38"/>
+    </g>
+    <path d="M200 162c16-12 35-14 51-6M309 156c16-8 35-6 51 6" fill="none" stroke-width="10"/>
+
+    <!-- snout -->
+    <ellipse cx="280" cy="284" rx="74" ry="52" fill="url(#pgSkin2)"/>
+    <ellipse cx="256" cy="282" rx="12" ry="19" fill="#4A2E1E" stroke="none"/>
+    <ellipse cx="304" cy="282" rx="12" ry="19" fill="#4A2E1E" stroke="none"/>
+    <ellipse cx="245" cy="266" rx="17" ry="9" fill="#FFF" opacity=".22" stroke="none"/>
+
+    <!-- mouth + lolling tongue, kept above the apron -->
+    <path d="M240 344c12 12 27 18 40 18s28-6 40-18" fill="none" stroke-width="8"/>
+    <path d="M272 356c2 21 0 36-9 45-8 8-21 7-26-2-5-9 0-19 10-22 9-4 14-11 15-23z" fill="#B8434A"/>
+    <path d="M268 368c-2 11-6 19-12 24" fill="none" stroke-width="6" opacity=".45"/>
+
+    <!-- ===== chef toque ===== -->
+    <g transform="translate(0 -16) rotate(-10 262 82)">
+      <path d="M190 98c-22-10-34-33-27-57 7-22 29-34 51-27 8-24 33-38 57-29 18 6 29 19 31 37 22-7 45 8 51 31 5 24-9 43-31 53z" fill="url(#pgHat)"/>
+      <path d="M190 94h150c9 0 16 7 16 16v19c0 9-7 16-16 16H190c-9 0-16-7-16-16v-19c0-9 7-16 16-16z" fill="url(#pgHat)"/>
+      <path d="M226 38c-6 18-6 40 0 60M298 38c6 18 6 40 0 60" fill="none" stroke-width="5" opacity=".35"/>
+      <path d="M208 110v25M265 110v25M322 110v25" fill="none" stroke-width="5" opacity=".28"/>
+    </g>
+  </g>
+</svg>

@@ -17,7 +17,6 @@
 <script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="assets/css/theme.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<style>:root { --swirl: url("assets/img/art/swirl.svg"); }</style>
 </head>
 
 <body>
@@ -37,8 +36,11 @@
 
     <nav class="nav" aria-label="Primary">
       <a href="#menu">Menu</a>
+      <a href="#carta">Full Menu</a>
       <a href="#bar">Bar</a>
       <a href="#story">Story</a>
+    <a href="#about">About</a>
+      <a href="#about">About</a>
       <a href="#visit">Visit</a>
     </nav>
 
@@ -59,6 +61,7 @@
 <div class="drawer" id="drawer" data-drawer aria-hidden="true">
   <nav aria-label="Mobile">
     <a href="#menu">Menu</a>
+    <a href="#carta">Full Menu</a>
     <a href="#bar">Bar</a>
     <a href="#story">Story</a>
     <a href="#loyalty">Rewards</a>
@@ -109,19 +112,219 @@
 <section class="cats" id="menu">
   <div class="shell">
     <div class="cats__grid">
-      <a class="cat" href="#menu" data-reveal="up"><span class="cat__shot"><img src="assets/img/gen/cat-tacos.webp" alt="Three birria tacos with onion, cilantro and lime" loading="lazy"></span><h3>Tacos</h3></a>
-      <a class="cat" href="#menu" data-reveal="up" data-delay="80"><span class="cat__shot"><img src="assets/img/gen/cat-nachos.webp" alt="A bowl of duck carnitas nachos" loading="lazy"></span><h3>Nachos</h3></a>
-      <a class="cat" href="#menu" data-reveal="up" data-delay="160"><span class="cat__shot"><img src="assets/img/gen/cat-quesadilla.webp" alt="Quesadilla wedges with salsa macha" loading="lazy"></span><h3>Quesadillas</h3></a>
-      <a class="cat" href="#menu" data-reveal="up" data-delay="240"><span class="cat__shot"><img src="assets/img/gen/cat-aguachile.webp" alt="A bowl of shrimp aguachile with avocado" loading="lazy"></span><h3>Aguachile</h3></a>
-      <a class="cat" href="#menu" data-reveal="up"><span class="cat__shot"><img src="assets/img/gen/cat-flautas.webp" alt="Potato flautas with avocado crema" loading="lazy"></span><h3>Flautas</h3></a>
-      <a class="cat" href="#menu" data-reveal="up" data-delay="80"><span class="cat__shot"><img src="assets/img/gen/cat-branzino.webp" alt="Whole roasted branzino with chimichurri" loading="lazy"></span><h3>Del Mar</h3></a>
-      <a class="cat" href="#menu" data-reveal="up" data-delay="160"><span class="cat__shot"><img src="assets/img/gen/cat-burger.webp" alt="A double smashed burger with chorizo" loading="lazy"></span><h3>Parrilla</h3></a>
-      <a class="cat" href="#bar" data-reveal="up" data-delay="240"><span class="cat__shot"><img src="assets/img/gen/cat-cocktail.webp" alt="A coupe cocktail and a tumbler of mezcal" loading="lazy"></span><h3>Bebidas</h3></a>
+      <a class="cat" href="#carta" data-reveal="up"><span class="cat__shot"><img src="assets/img/gen/cat-tacos.webp" alt="Three birria tacos with onion, cilantro and lime" loading="lazy"></span><h3>Tacos</h3></a>
+      <a class="cat" href="#carta" data-reveal="up" data-delay="80"><span class="cat__shot"><img src="assets/img/gen/cat-nachos.webp" alt="A bowl of duck carnitas nachos" loading="lazy"></span><h3>Nachos</h3></a>
+      <a class="cat" href="#carta" data-reveal="up" data-delay="160"><span class="cat__shot"><img src="assets/img/gen/cat-quesadilla.webp" alt="Quesadilla wedges with salsa macha" loading="lazy"></span><h3>Quesadillas</h3></a>
+      <a class="cat" href="#carta" data-reveal="up" data-delay="240"><span class="cat__shot"><img src="assets/img/gen/cat-aguachile.webp" alt="A bowl of shrimp aguachile with avocado" loading="lazy"></span><h3>Aguachile</h3></a>
+      <a class="cat" href="#carta" data-reveal="up"><span class="cat__shot"><img src="assets/img/gen/cat-flautas.webp" alt="Potato flautas with avocado crema" loading="lazy"></span><h3>Flautas</h3></a>
+      <a class="cat" href="#carta" data-reveal="up" data-delay="80"><span class="cat__shot"><img src="assets/img/gen/cat-branzino.webp" alt="Whole roasted branzino with chimichurri" loading="lazy"></span><h3>Del Mar</h3></a>
+      <a class="cat" href="#carta" data-reveal="up" data-delay="160"><span class="cat__shot"><img src="assets/img/gen/cat-burger.webp" alt="A double smashed burger with chorizo" loading="lazy"></span><h3>Parrilla</h3></a>
+      <a class="cat" href="#bebidas" data-reveal="up" data-delay="240"><span class="cat__shot"><img src="assets/img/gen/cat-cocktail.webp" alt="A coupe cocktail and a tumbler of mezcal" loading="lazy"></span><h3>Bebidas</h3></a>
     </div>
 
     <div class="cats__cta" data-reveal="up">
-      <a class="btn" href="#menu">Discover the whole menu</a>
+      <a class="btn" href="#carta">Discover the whole menu</a>
     </div>
+  </div>
+</section>
+
+<!-- ============================== FULL MENU ============================== -->
+<section class="carta" id="carta">
+  <div class="shell">
+    <div class="carta__head" data-reveal="up">
+      <div>
+        <p class="eyebrow">Carta completa</p>
+        <h2 class="h-sec" style="margin-top:14px">The whole menu</h2>
+      </div>
+      <p class="lead" style="max-width:38ch">
+        Contemporary plates infused with rural Mexican staples, from Consuelo&rsquo;s kitchen.
+        Cooked by Chef Becky Carson.
+      </p>
+    </div>
+
+    <div class="carta__grid">
+
+      <div class="carta__block" data-reveal="up">
+        <h3 class="carta__cat">Chilled <sup>**</sup></h3>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Aguachile</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$26</span>
+          </div>
+          <p class="carta__desc">Shrimp, habanero, peach, pepino, avocado</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Sikil Pak Ensalada <em>(V)</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$17</span>
+          </div>
+          <p class="carta__desc">Lettuce, heirloom tomato, pickled green beans, charred garlic vinaigrette, queso fresco</p>
+        </div>
+      </div>
+
+      <div class="carta__block carta__block--hot" data-reveal="up" data-delay="80">
+        <h3 class="carta__cat">Hot</h3>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Sopa De Tortilla <em>(VG)</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$8 / $14</span>
+          </div>
+          <p class="carta__desc">Black beans, sweet potato, avocado, cilantro</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Al&rsquo;s Tinga Tostada</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$10</span>
+          </div>
+          <p class="carta__desc">Pickled jalape&ntilde;o, cotija, avocado crema</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Duck Carnitas Nachos (6)</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$25</span>
+          </div>
+          <p class="carta__desc">Frijoles, citrus salad, mint</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Potato Flautas <em>(V)</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$12</span>
+          </div>
+          <p class="carta__desc">Avocado, cotija, guajillo salsa</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Quesadilla Azul <em>(V) *</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$10 / $12</span>
+          </div>
+          <p class="carta__desc">Mushroom, rajas, prime arrachera, salsa macha</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Mushroom Taco <em>(VG)</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$5</span>
+          </div>
+          <p class="carta__desc">Crimini, slaw</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Rajas Taco <em>(V)</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$6</span>
+          </div>
+          <p class="carta__desc">Poblano, chihuahua, corn salsa</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Mam&aacute; Coco&rsquo;s Al Pastor Taco <em>&#127798;</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$6</span>
+          </div>
+          <p class="carta__desc">Cebolla y cilantro</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Birria Taco</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$7</span>
+          </div>
+          <p class="carta__desc">Goat, raddish, cebolla y cilantro</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Hamburguesa Aplastada</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$20</span>
+          </div>
+          <p class="carta__desc">Double patty &mdash; dry aged prime beef, chorizo, chihuahua, curtido</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Mediterranean Branzino</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$38</span>
+          </div>
+          <p class="carta__desc">Chimichurri, citrus, oregano</p>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">U.S.D.A. Prime New York Strip, 14&nbsp;oz</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$65</span>
+          </div>
+          <p class="carta__desc">Friday &amp; Saturday only</p>
+        </div>
+      </div>
+
+      <div class="carta__block" data-reveal="up" data-delay="160">
+        <h3 class="carta__cat">Dessert</h3>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Caf&eacute; De Olla Ice Cream</span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$6</span>
+          </div>
+        </div>
+
+        <div class="carta__item">
+          <div class="carta__row">
+            <span class="carta__name">Sherbert <em>(VG)</em></span>
+            <span class="carta__leader" aria-hidden="true"></span>
+            <span class="carta__price">$6</span>
+          </div>
+          <p class="carta__desc">Naranja y coco</p>
+        </div>
+      </div>
+
+      <div class="carta__block carta__bebidas" id="bebidas" data-reveal="up" data-delay="240">
+        <h3 class="carta__cat">Bebidas</h3>
+        <p>
+          Our drink program is the best example of how we approach everything at Cerdito
+          Muerto &mdash; with thought, care, and intention. Our beer and wine selection is
+          exclusively Mexican.
+        </p>
+        <p>
+          Our No &amp; Low, House Cocktails and Specialty Cocktails have no processed sugars,
+          no processed syrups, nor imitation flavoring. All fruits and veggies are juiced,
+          strained, then clarified. All cordials are made in-house from scratch.
+        </p>
+        <p>
+          Come in and visit us to see the full drink menu and selection of spirits.
+          We&rsquo;ll have something special waiting for you.
+        </p>
+      </div>
+    </div>
+
+    <p class="carta__note">
+      <b>*</b> item contains nuts &nbsp;&middot;&nbsp; <b>(V)</b> vegetarian &nbsp;&middot;&nbsp;
+      <b>(VG)</b> vegan &nbsp;&middot;&nbsp; <b>&#127798;</b> spicy<br>
+      <b>**</b> Consuming raw or undercooked shellfish, finfish, meat or eggs may create a
+      higher risk of foodborne illness.<br>
+      Website version of the menu &mdash; prices and dishes are subject to change.
+    </p>
   </div>
 </section>
 
@@ -153,7 +356,7 @@
           family business and beloved community gathering spot. The building pre-dates the
           Chicago Fire and has been Mexican-owned for three generations.
         </p>
-        <a class="arrow-link" href="#visit">
+        <a class="arrow-link" href="#about">
           <i><svg viewBox="0 0 60 60" aria-hidden="true"><g stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M18 30h24M32 20l10 10-10 10"/></g></svg></i>
           Learn more
         </a>
@@ -162,18 +365,82 @@
   </div>
 </section>
 
+<!-- =============================== ABOUT =============================== -->
+<section class="about" id="about">
+  <span class="about__swirl" aria-hidden="true"></span>
+
+  <div class="about__intro" data-reveal="up">
+    <p class="eyebrow">About us</p>
+    <h2 class="h-sec">A neighborhood trough</h2>
+    <p class="lead">
+      <strong>Cerdito Muerto</strong> is a contemporary cocktail bar &amp; Mexican-American
+      kitchen in Pilsen. It&rsquo;s the brainchild of a first-generation Mexican-American kid
+      who grew up on this very street, in this very space. It&rsquo;s the second iteration of a
+      family business and beloved community gathering spot &mdash; <em>formerly known as
+      The Poolhall &amp; Tacos Palacio</em>.
+    </p>
+    <p class="lead">
+      The building pre-dates the Chicago Fire and has been Mexican-owned for three
+      generations. This place means a lot to us, and we hope you can feel it when
+      you&rsquo;re here.
+    </p>
+  </div>
+
+  <dl class="about__facts" data-reveal="up" data-delay="80">
+    <div><dt>~1853</dt><dd>The building pre-dates<br>the Chicago Fire</dd></div>
+    <div><dt>3</dt><dd>Generations<br>Mexican-owned</dd></div>
+    <div><dt>~30</dt><dd>Seats &mdash; a small<br>room on purpose</dd></div>
+  </dl>
+
+  <article class="program" data-reveal="up" data-delay="120">
+    <h3>Beverage<br>program</h3>
+    <div>
+      <p>
+        Homemade Squirt &mdash; <em>yes, homemade</em> &mdash; on draft (try it in Memo&rsquo;s
+        Paloma). Inspired syrups and cordials made from scratch. Fresh squeezed clarified
+        juices. We don&rsquo;t use any imitation flavoring in our bar; <em>this</em> is the
+        foundation of our meticulous cocktail program.
+      </p>
+      <p>
+        Couple that practice with an intentional selection of curated spirits, beers and
+        wines built to center Mexican-owned brands. We&rsquo;ve created a one-of-a-kind
+        collection and we can&rsquo;t wait to share it with you.
+      </p>
+      <p>Our beer and wine selection is exclusively Mexican.</p>
+    </div>
+  </article>
+
+  <article class="program" data-reveal="up" data-delay="160">
+    <h3>Food<br>program</h3>
+    <div>
+      <p>
+        This space has undergone a beautiful renovation, but it will always be
+        Consuelo&rsquo;s kitchen. To honor her &mdash; <em>and the ancestors</em> &mdash; our
+        contemporary menu is infused with rural Mexican staples.
+      </p>
+      <p>Buen provecho.</p>
+      <span class="program__sig"><span aria-hidden="true"></span> Chef &middot; Becky Carson</span>
+    </div>
+  </article>
+
+  <div class="about__foot" data-reveal="up" data-delay="200">
+    <a class="btn" href="#carta">See the menu</a>
+    <a class="btn btn--ghost" href="https://resy.com/cities/chicago-il/venues/cerdito-muerto" target="_blank" rel="noopener">Book a table</a>
+  </div>
+</section>
+
 <!-- ============================ PROMO CARDS ============================ -->
 <div class="shell" id="bar">
   <div class="promos">
     <a class="promo promo--gold" href="#visit" data-reveal="up">
-      <span class="promo__swirl" aria-hidden="true" style="background-image:var(--swirl);background-size:420px"></span>
+      <span class="promo__swirl" aria-hidden="true"></span>
       <img class="promo__art" src="assets/img/gen/promo-drink.webp" alt="" aria-hidden="true" loading="lazy">
       <h3 class="display d-lg">Choose<br>your table</h3>
       <p>Thirty seats. The bar fills first.</p>
     </a>
 
     <a class="promo promo--green" href="#visit" data-reveal="up" data-delay="120">
-      <span class="promo__swirl" aria-hidden="true" style="background-image:var(--swirl);background-size:420px"></span>
+      <span class="promo__swirl" aria-hidden="true"></span>
       <img class="promo__art" src="assets/img/gen/promo-room.webp" alt="" aria-hidden="true" loading="lazy">
       <h3 class="display d-lg">Join<br>the crew</h3>
       <p>Your chosen family. People who get you.</p>
@@ -187,7 +454,7 @@
 
   <img class="loyalty__char loyalty__char--left" src="assets/img/art/cerdito.svg" alt="" aria-hidden="true"
        data-parallax="speed:4; range:0,50; dir:-1; on:desktop">
-  <img class="loyalty__char loyalty__char--right" src="assets/img/art/chef.svg" alt="" aria-hidden="true"
+  <img class="loyalty__char loyalty__char--right" src="assets/img/art/pig-chef.svg" alt="" aria-hidden="true"
        data-parallax="speed:1; range:0,100">
 
   <div class="shell">
@@ -247,8 +514,10 @@
         <h4>Explore</h4>
         <ul>
           <li><a href="#menu">Menu</a></li>
+          <li><a href="#carta">Full menu</a></li>
           <li><a href="#bar">Bar</a></li>
           <li><a href="#story">Our story</a></li>
+          <li><a href="#about">About us</a></li>
           <li><a href="#loyalty">Rewards</a></li>
           <li><a href="#visit">Visit</a></li>
         </ul>
