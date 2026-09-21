@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-label="Download the app">
+  <rect x="2" y="2" width="316" height="92" rx="18" fill="#0B0B0A" stroke="#E8A93C" stroke-width="3"/>
+  <g stroke="#E8A93C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M44 34v28M32 52l12 12 12-12"/><path d="M30 72h28"/>
+  </g>
+  <text x="80" y="42" font-family="Figtree, Arial, sans-serif" font-weight="600" font-size="15" letter-spacing="3" fill="#E8A93C">DOWNLOAD</text>
+  <text x="80" y="70" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="23" letter-spacing="1" fill="#F4EEE3">THE APP</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 640" role="img" aria-label="Cerdito Muerto app on a phone">
+  <defs>
+    <linearGradient id="ph" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A3630"/><stop offset="1" stop-color="#17150F"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14150F"/><stop offset="1" stop-color="#0B0B0A"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="308" height="628" rx="46" fill="url(#ph)" stroke="#0B0B0A" stroke-width="5"/>
+  <rect x="18" y="18" width="284" height="604" rx="38" fill="url(#scr)"/>
+  <rect x="122" y="30" width="76" height="9" rx="4.5" fill="#3A3630"/>
+  <g transform="translate(160 210)">
+    <circle r="66" fill="none" stroke="#E8A93C" stroke-width="3" opacity=".5"/>
+    <g stroke="#E8A93C" stroke-width="3.4" stroke-linecap="round">
+      <path d="M0-84v14M0 70v14M-84 0h14M70 0h14M-59-59l10 10M49 49l10 10M59-59l-10 10M-49 49l-10 10"/>
+    </g>
+    <text y="-6" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="24" fill="#F4EEE3">CERDITO</text>
+    <text y="24" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="24" fill="#E8A93C">MUERTO</text>
+  </g>
+  <g fill="#E8A93C" opacity=".9">
+    <rect x="52" y="336" width="216" height="46" rx="23"/>
+  </g>
+  <text x="160" y="365" text-anchor="middle" font-family="Figtree, Arial, sans-serif" font-weight="700" font-size="15" letter-spacing="2" fill="#0B0B0A">BOOK A TABLE</text>
+  <g fill="#F4EEE3" opacity=".14">
+    <rect x="52" y="404" width="216" height="13" rx="6.5"/>
+    <rect x="52" y="430" width="164" height="13" rx="6.5"/>
+    <rect x="52" y="470" width="100" height="72" rx="14"/>
+    <rect x="168" y="470" width="100" height="72" rx="14"/>
+  </g>
+  <rect x="120" y="596" width="80" height="5" rx="2.5" fill="#F4EEE3" opacity=".3"/>
+</svg>

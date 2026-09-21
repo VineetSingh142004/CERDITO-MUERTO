@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Cerdito Muerto cartoon pig character">
+  <defs>
+    <linearGradient id="pk" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#F7C9A8"/><stop offset="1" stop-color="#D98F63"/>
+    </linearGradient>
+    <linearGradient id="pk2" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#E9A87E"/><stop offset="1" stop-color="#C87A50"/>
+    </linearGradient>
+    <linearGradient id="hat" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#2A5C48"/><stop offset="1" stop-color="#16342A"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#2A1B10" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ears -->
+    <path d="M118 150c-16-36-24-72-16-98 3-10 14-13 21-5 21 22 39 43 52 66z" fill="url(#pk2)"/>
+    <path d="M402 150c16-36 24-72 16-98-3-10-14-13-21-5-21 22-39 43-52 66z" fill="url(#pk2)"/>
+
+    <!-- head -->
+    <path d="M260 96c-82 0-150 34-173 94-16 40-18 90-8 132 13 55 50 97 100 116 26 10 55 15 81 15s55-5 81-15c50-19 87-61 100-116 10-42 8-92-8-132-23-60-91-94-173-94z" fill="url(#pk)"/>
+
+    <!-- cheeks -->
+    <ellipse cx="128" cy="286" rx="30" ry="22" fill="#E88A6A" stroke="none" opacity=".55"/>
+    <ellipse cx="392" cy="286" rx="30" ry="22" fill="#E88A6A" stroke="none" opacity=".55"/>
+
+    <!-- dead X eyes -->
+    <g stroke="#2A1B10" stroke-width="17">
+      <path d="M160 214l50 50M210 214l-50 50"/>
+      <path d="M310 214l50 50M360 214l-50 50"/>
+    </g>
+
+    <!-- brows -->
+    <path d="M142 172c22-14 48-16 70-6M308 166c22-10 48-8 70 6" fill="none" stroke-width="10"/>
+
+    <!-- snout -->
+    <ellipse cx="260" cy="332" rx="78" ry="56" fill="url(#pk2)"/>
+    <ellipse cx="232" cy="330" rx="13" ry="20" fill="#2A1B10" stroke="none"/>
+    <ellipse cx="288" cy="330" rx="13" ry="20" fill="#2A1B10" stroke="none"/>
+
+    <!-- tongue lolling out -->
+    <path d="M260 388c0 30-10 52-28 64-13 9-30 6-35-8-5-13 3-26 16-31 15-6 25-15 30-27z" fill="#B8434A"/>
+    <path d="M247 398c-4 14-11 24-20 30" fill="none" stroke-width="7" opacity=".5"/>
+
+    <!-- little chef hat, tilted -->
+    <g transform="rotate(-14 150 96)">
+      <path d="M96 96c-16-7-25-24-20-41 5-16 21-25 36-20 5-18 24-28 41-22 12 4 20 13 22 24 16-5 33 5 37 21 4 17-6 31-21 38z" fill="url(#hat)"/>
+      <path d="M96 92h95c6 0 11 5 11 11v11c0 6-5 11-11 11H96c-6 0-11-5-11-11v-11c0-6 5-11 11-11z" fill="url(#hat)"/>
+    </g>
+
+    <!-- sparkle accents -->
+    <g stroke="#E8A93C" stroke-width="8" fill="none">
+      <path d="M452 206l0 34M435 223h34"/>
+      <path d="M74 372l0 26M62 385h26"/>
+    </g>
+  </g>
+</svg>

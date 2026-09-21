@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Cerdito Muerto">
+  <circle cx="110" cy="110" r="108" fill="#0B0B0A"/>
+  <g stroke="#E8A93C" stroke-width="5" stroke-linecap="round">
+    <g id="ticks">
+      <path d="M110 8v20"/><path d="M110 192v20"/><path d="M8 110h20"/><path d="M192 110h20"/>
+      <path d="M38 38l14 14"/><path d="M168 168l14 14"/><path d="M182 38l-14 14"/><path d="M52 168l-14 14"/>
+      <path d="M61 15l8 18"/><path d="M151 187l8 18"/><path d="M159 15l-8 18"/><path d="M69 187l-8 18"/>
+      <path d="M15 61l18 8"/><path d="M187 151l18 8"/><path d="M205 61l-18 8"/><path d="M33 151l-18 8"/>
+    </g>
+  </g>
+  <circle cx="110" cy="110" r="86" fill="none" stroke="#E8A93C" stroke-width="3" opacity=".55"/>
+  <text x="110" y="100" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="1" fill="#F4EEE3">CERDITO</text>
+  <text x="110" y="136" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="1" fill="#E8A93C">MUERTO</text>
+  <path d="M74 152h72" stroke="#E8A93C" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+</svg>

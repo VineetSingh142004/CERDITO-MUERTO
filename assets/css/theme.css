@@ -1,0 +1,74 @@
+/* ==========================================================================
+   THEME — the only file you edit to re-skin the site.
+   Every colour below is a ROLE, mapped from the reference layout's own roles.
+   Swap the right-hand values and the whole site re-skins.
+
+   reference role            reference value   this theme
+   ----------------------    ---------------   ----------------------------
+   page background           #FAE8DF cream     #0B0B0A near-black
+   body / display text       #5F0E00 maroon    #F4EEE3 cream
+   primary accent (CTA)      #F83E1C orange    #E8A93C warm gold
+   secondary accent          #F17F21 amber     #C4622D ember
+   deep panel                #053626 green     #16342A green
+   alert / highlight         #D1091E red       #C4402A brick
+   ========================================================================== */
+
+:root {
+  /* ---- palette ---- */
+  --bg:            #0B0B0A;
+  --surface:       #121310;
+  --surface-2:     #191A16;
+  --surface-3:     #22231D;
+
+  --ink:           #F4EEE3;
+  --ink-soft:      rgba(244, 238, 227, .62);
+  --ink-faint:     rgba(244, 238, 227, .38);
+  --hairline:      rgba(244, 238, 227, .14);
+
+  --accent:        #E8A93C;
+  --accent-soft:   #F5D183;
+  --accent-wash:   rgba(232, 169, 60, .16);
+  --accent-2:      #C4622D;
+
+  --green:         #16342A;
+  --green-deep:    #0E241C;
+  --green-lift:    #235741;
+
+  --red:           #C4402A;
+
+  /* on-accent text — must stay readable if the accent changes */
+  --on-accent:     #0B0B0A;
+  --on-green:      #F4EEE3;
+
+  /* ---- type ----
+     The reference pairs a heavy display face with a geometric text face.
+     Archivo Black is the closest free match to its display weight and width. */
+  --font-display: "Archivo Black", "Helvetica Neue", Arial, sans-serif;
+  --font-text:    "Figtree", "Helvetica Neue", Arial, sans-serif;
+  --font-label:   "Figtree", "Helvetica Neue", Arial, sans-serif;
+
+  --display-tracking: -.03em;
+  --display-leading:  .88;
+
+  /* ---- shape ---- */
+  --r-panel:  30px;   /* the reference's signature panel radius */
+  --r-card:   20px;
+  --r-media:  15px;
+  --r-sm:     10px;
+  --r-pill:   999px;
+
+  /* ---- rhythm ---- */
+  --pad-x:    50px;              /* 50 / 30 / 20 — see the breakpoint block */
+  --gap-sect: clamp(60px, 9vw, 150px);
+  --gap-grid: clamp(30px, 6vw, 100px);
+  --shell:    1920px;
+
+  /* ---- motion ---- */
+  --ease:      cubic-bezier(.22, .61, .36, 1);
+  /* the reference's motion-fx easing: a damped follow with ~3% overshoot */
+  --ease-mfx:  cubic-bezier(0, .33, .07, 1.03);
+  --ease-out:  cubic-bezier(.16, 1, .3, 1);
+  --t-fast:    .25s;
+  --t-base:    .4s;
+  --t-slow:    .7s;
+}
